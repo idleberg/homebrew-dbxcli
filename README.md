@@ -3,7 +3,6 @@
 [![BSD 2-Clause License](https://flat.badgen.net/badge/license/BSD%202-Clause/blue)](https://opensource.org/licenses/BSD-2-Clause)
 [![Latest Release](https://flat.badgen.net/github/release/idleberg/homebrew-dbxcli)](https://github.com/idleberg/homebrew-dbxcli/releases)
 [![Travis](https://flat.badgen.net/travis/idleberg/homebrew-dbxcli)](https://travis-ci.org/idleberg/homebrew-dbxcli)
-[![David](https://flat.badgen.net/david/dev/idleberg/homebrew-dbxcli)](https://david-dm.org/idleberg/homebrew-dbxcli?type=dev)
 
 Homebrew tap for [Dropbox CLI](https://github.com/dropbox/dbxcli)
 
