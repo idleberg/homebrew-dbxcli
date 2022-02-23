@@ -24,7 +24,7 @@ You can now install `dbxcli` as you normally would.
 $ brew install dbxcli
 ```
 
-# Related
+## Related
 
 - [homebrew-dropboxignore](https://github.com/idleberg/homebrew-dropboxignore)
 
