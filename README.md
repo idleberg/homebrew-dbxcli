@@ -1,8 +1,8 @@
 # homebrew-dbxcli
 
-[![BSD 2-Clause License](https://flat.badgen.net/badge/license/BSD%202-Clause/blue)](https://opensource.org/licenses/BSD-2-Clause)
-[![Latest Release](https://flat.badgen.net/github/release/idleberg/homebrew-dbxcli)](https://github.com/idleberg/homebrew-dbxcli/releases)
-[![Travis](https://flat.badgen.net/travis/idleberg/homebrew-dbxcli)](https://travis-ci.org/idleberg/homebrew-dbxcli)
+[![BSD 2-Clause License](https://img.shields.io/github/license/idleberg/homebrew-dbxcli?style=for-the-badge)](https://opensource.org/licenses/BSD-2-Clause)
+[![Build](https://img.shields.io/github/actions/workflow/status/idleberg/homebrew-dbxcli/audit.yml?style=for-the-badge)](https://github.com/idleberg/homebrew-dbxcli/actions)
+
 
 Homebrew tap for [Dropbox CLI](https://github.com/dropbox/dbxcli)
 
