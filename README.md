@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This Homebrew tap is no longer maintained. Please use the [idleberg/asahi](https://github.com/idleberg/homebrew-asahi) instead.
+
 # homebrew-dbxcli
 
 [![BSD 2-Clause License](https://img.shields.io/github/license/idleberg/homebrew-dbxcli?style=for-the-badge)](https://opensource.org/licenses/BSD-2-Clause)
