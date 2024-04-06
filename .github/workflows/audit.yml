@@ -1,0 +1,34 @@
+name: audit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  audit:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+
+    steps:
+    - uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+      with:
+        fetch-depth: 1
+
+    - name: Install Homebrew
+      if: matrix.os == 'ubuntu-latest'
+      uses: Homebrew/actions/setup-homebrew@master
+
+    - name: Update Homebrew
+      if: matrix.os != 'ubuntu-latest'
+      run: |
+        brew update --auto-update
+
+    - name: Tap Repository
+      run: brew tap idleberg/dbxcli
+
+    - name: Audit Formulas
+      run: brew audit idleberg/dbxcli/dbxcli --online
