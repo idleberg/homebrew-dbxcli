@@ -27,6 +27,10 @@ You can now install `dbxcli` as you normally would.
 $ brew install dbxcli
 ```
 
+## Related
+
+- [homebrew-dropboxignore](https://github.com/idleberg/homebrew-dropboxignore)
+
 ## License
 
 This work is licensed under the [BSD 2-Clause License](LICENSE)
