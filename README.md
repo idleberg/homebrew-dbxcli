@@ -1,5 +1,5 @@
 > [!CAUTION]
-> This Homebrew tap is no longer maintained. Please use the [idleberg/asahi](https://github.com/idleberg/homebrew-asahi) instead.
+> This Homebrew tap is no longer maintained. Please use the [idleberg/asahi](https://github.com/idleberg/homebrew-asahi) tap instead.
 
 # homebrew-dbxcli
 
